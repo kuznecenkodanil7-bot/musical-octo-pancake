@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "aiassistant",
+  "version": "${version}",
+  "name": "AI Assistant",
+  "description": "Fabric mod for Minecraft 1.21.11. Adds /askai command for simple AI chat.",
+  "authors": ["Popa"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.popa.aiassistant.AIAssistantMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
